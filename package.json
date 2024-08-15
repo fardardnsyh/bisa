@@ -1,0 +1,19 @@
+{
+  "name": "@superinterface/superinterface",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build --force",
+    "dev": "turbo run build --force -- --watch"
+  },
+  "dependencies": {
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.6.7",
+    "turbo": "^2.0.6"
+  },
+  "packageManager": "npm@10.2.0"
+}
